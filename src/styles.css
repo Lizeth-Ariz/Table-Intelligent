@@ -2,3 +2,64 @@
   font-family: sans-serif;
   text-align: center;
 }
+h1 {
+  margin-bottom: 10px;
+  margin-top: 10px;
+  font-size: 24px;
+  color: #72a7c7;
+  margin-top: 0;
+}
+/*TABLES*/
+
+.tableContent-th-title {
+  color: #666666;
+  border-bottom: 1px solid #72a7c7;
+  text-align: inherit;
+}
+
+.tableContent-th-subtitle {
+  color: #999999;
+  text-align: inherit;
+}
+
+.tableContent_td_content {
+  border-bottom: 1px solid #999999;
+  text-align: inherit;
+}
+
+.table_auto {
+  table-layout: fixed;
+  width: auto;
+  display: inline-block;
+}
+
+table {
+  width: 100%;
+  font-family: arial, sans-serif;
+  color: rgb(107, 107, 107);
+  border-collapse: collapse;
+}
+
+.table_content td {
+  border-bottom: 1px solid #666666;
+}
+
+.table_content th {
+  border-bottom: 2px solid #999999;
+}
+
+td,
+th {
+  font-size: 14px;
+  text-align: left;
+  padding: 2px;
+}
+
+td {
+  vertical-align: top;
+}
+.pagination {
+  background-color: #10dfee33;
+  color: #999999;
+  padding: 1px 10px;
+}
